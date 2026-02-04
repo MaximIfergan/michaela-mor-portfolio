@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Add fade-out class
                 document.body.classList.add('fade-out');
 
-                // Navigate after fade with longer duration for smoothness
+                // Navigate after fade
                 setTimeout(() => {
                     window.location.href = href;
-                }, 600);
+                }, 200);
             }
         });
     });
