@@ -531,9 +531,9 @@ a {
 
 @media (max-width: 480px) {
     .nav-menu {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 18px;
     }
 
     .gallery-grid {
